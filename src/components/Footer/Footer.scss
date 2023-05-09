@@ -1,0 +1,26 @@
+.footer {
+  &_container {
+    background-color: #ADD18B;
+  }
+}
+
+.network {
+  display: flex;
+  grid-template: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.copyriting {
+  background-color: #ADD18B;
+  padding-bottom: 50px;
+}
+
+.link {color:black;}
+.link:visited {color:black;}
+.link:hover {color:white;}
+.link:active {color:green;}

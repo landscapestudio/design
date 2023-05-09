@@ -2,12 +2,10 @@ import React from 'react';
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
-import { Home } from './pages/Home';
-import { About } from './pages/About';
+import { Home } from './pages/Home/Home';
+import { About } from './pages/About/About';
 import { Blog } from './pages/Blog';
-import { Contact } from './pages/Contact';
-import { Register } from './pages/Register';
-import { Login } from './pages/Login';
+import { Footer } from './components/Footer/Footer';
 
 const App: React.FC = () => (
   <>
@@ -18,9 +16,7 @@ const App: React.FC = () => (
         <Route path="/" Component={Home} />
         <Route path="/about" Component={About} />
         <Route path="/blog" Component={Blog} />
-        <Route path="/contact" Component={Contact} />
-        <Route path="/login" Component={Login} />
-        <Route path="/register" Component={Register} />
+        <Route path="#footer" Component={Footer} />
       </Routes>
     </div>
   </>

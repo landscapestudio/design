@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
+import { Link } from 'react-scroll';
 import { NavItem } from './navItem/NavItem';
 
 export const Navbar: React.FC = () => {
@@ -12,7 +13,7 @@ export const Navbar: React.FC = () => {
     <nav className="nav">
       <div className="nav__container">
         <NavLink to="/" className="nav__logo">
-          Dino Logo
+          <img src={require('../../img/logo.png')} alt="logo" className="nav_logo_img" />
         </NavLink>
 
         <ul className={clik ? 'nav__menu active' : 'nav__menu'}>
@@ -35,17 +36,18 @@ export const Navbar: React.FC = () => {
             text="Blog"
           />
 
-          <NavItem
-            to="/contact"
-            event={handleClik}
-            text="Contact us"
-          />
-
-          <NavItem
-            to="/login"
-            event={handleClik}
-            text="Login"
-          />
+          <Link
+            // eslint-disable-next-line react/jsx-boolean-value
+            spy={true}
+            // eslint-disable-next-line react/jsx-boolean-value
+            smooth={true}
+            offset={50}
+            duration={500}
+            to="footer"
+            className="nav__item"
+          >
+            Contact us
+          </Link>
         </ul>
 
         <div

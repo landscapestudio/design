@@ -7,6 +7,7 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "global-require": "off",
     "react/jsx-no-undef": "off",
     "react/function-component-definition": "off",
     "import/prefer-default-export": "off",

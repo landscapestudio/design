@@ -1,1 +1,1 @@
-[DEMO LINK](https://VovaKlimyuk.github.io/login_register_page_react/) 
+[DEMO LINK](https://github.com/VovaKlimyuk/landspace.git/) 

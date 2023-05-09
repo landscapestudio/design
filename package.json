@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "homepage": "https://VovaKlimyuk.github.io/login_register_page_react",
+  "homepage": "https://github.com/VovaKlimyuk/landspace.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,6 +18,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "sass": "^1.59.3",
     "sort-by": "^1.2.0",
     "web-vitals": "^2.1.4"
@@ -48,6 +49,7 @@
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@types/react-scroll": "^1.8.7",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint-config-airbnb": "^19.0.4",
