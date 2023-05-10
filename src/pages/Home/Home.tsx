@@ -22,7 +22,7 @@ export const Home: React.FC = () => (
               <li className="list_item">
                 <i className="bx bxs-florist" />
                 &nbsp;&nbsp;
-                З поетапною оплатою та терміном прописанним в договорі.
+                З поетапною оплатою та терміном прописанним у договорі.
               </li>
               <li className="list_item">
                 <i className="bx bxs-florist" />
