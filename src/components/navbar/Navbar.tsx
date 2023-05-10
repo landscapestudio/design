@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
 import { Link } from 'react-scroll';
-import { NavItem } from './navItem/NavItem';
 
 export const Navbar: React.FC = () => {
   const [clik, setClick] = useState(false);
@@ -18,23 +17,54 @@ export const Navbar: React.FC = () => {
 
         <ul className={clik ? 'nav__menu active' : 'nav__menu'}>
 
-          <NavItem
+          {/* <NavItem
             to="/"
             event={handleClik}
             text="Home"
-          />
+          /> */}
+          <Link
+          // eslint-disable-next-line react/jsx-boolean-value
+            spy={true}
+          // eslint-disable-next-line react/jsx-boolean-value
+            smooth={true}
+            offset={50}
+            duration={500}
+            to="home"
+            className="nav__item nav__links"
+          >
+            Home
+          </Link>
 
-          <NavItem
+          {/* <NavItem
             to="/about"
             event={handleClik}
             text="About us"
-          />
+          /> */}
+          <Link
+          // eslint-disable-next-line react/jsx-boolean-value
+            spy={true}
+          // eslint-disable-next-line react/jsx-boolean-value
+            smooth={true}
+            offset={50}
+            duration={500}
+            to="about"
+            className="nav__item nav__links"
+          >
+            About us
+          </Link>
 
-          <NavItem
-            to="/blog"
-            event={handleClik}
-            text="Blog"
-          />
+          <Link
+            // eslint-disable-next-line react/jsx-boolean-value
+            spy={true}
+            // eslint-disable-next-line react/jsx-boolean-value
+            smooth={true}
+            offset={50}
+            duration={500}
+            to="blog"
+            className="nav__item nav__links"
+          >
+            Blog
+          </Link>
 
           <Link
             // eslint-disable-next-line react/jsx-boolean-value
@@ -44,7 +74,7 @@ export const Navbar: React.FC = () => {
             offset={50}
             duration={500}
             to="footer"
-            className="nav__item"
+            className="nav__item nav__links"
           >
             Contact us
           </Link>

@@ -1,10 +1,11 @@
 import React from 'react';
 import './Home.scss';
 import { Footer } from '../../components/Footer/Footer';
+import { About } from '../../components/About/About';
 
 export const Home: React.FC = () => (
   <>
-    <div className="content">
+    <div className="content" id="home">
 
       <div className="info">
         <div className="info__title">
@@ -53,6 +54,8 @@ export const Home: React.FC = () => (
 
       </div>
     </div>
+
+    <About />
     <Footer />
   </>
 );
