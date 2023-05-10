@@ -14,15 +14,14 @@ const App: React.FC = () => (
 
     <div className="pages">
       <Routes>
-        <Route
-          path="*"
-          element={<Navigate to="/" />}
-        />
         <Route path="/" Component={Home} />
         <Route path="/about" Component={About} />
         <Route path="/blog" Component={Blog} />
         <Route path="#footer" Component={Footer} />
-
+        <Route
+          path="*"
+          element={<Navigate to="/" />}
+        />
       </Routes>
     </div>
 
