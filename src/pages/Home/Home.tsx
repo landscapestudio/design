@@ -17,13 +17,13 @@ export const Home: React.FC = () => {
   const [sixth, togleSixth] = useState<boolean>(false);
 
   // quiz answers
-  const [advice, setAdvice] = useState<string>('Не вказано');
+  const [advice, setAdvice] = useState<string>('');
   const [typeLandspace, setTypeLandspace] = useState<string>('Не вказано ');
-  const [area, setArea] = useState<string>('Не вказано');
-  const [designe, setDesigne] = useState<string>('Не вказано');
-  const [work, setWork] = useState<string>('Не вказано');
-  const [name, setName] = useState<string>('Не вказано');
-  const [phone, setPhone] = useState<string>('Не вказано');
+  const [area, setArea] = useState<string>('');
+  const [designe, setDesigne] = useState<string>('');
+  const [work, setWork] = useState<string>('');
+  const [name, setName] = useState<string>('');
+  const [phone, setPhone] = useState<string>('');
 
   // send to telegram
   const [result, setResult] = useState<string>('');
@@ -32,13 +32,21 @@ export const Home: React.FC = () => {
   const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${result}`;
 
   const clear = () => {
-    setAdvice('Не вказано');
-    setTypeLandspace('Не вказано ');
-    setArea('Не вказано');
-    setDesigne('Не вказано');
-    setWork('Не вказано');
-    setName('Не вказано');
-    setPhone('Не вказано');
+    setAdvice('');
+    setTypeLandspace('');
+    setArea('');
+    setDesigne('');
+    setWork('');
+    setName('');
+    setPhone('');
+    setResult('');
+    console.log(advice);
+    console.log(typeLandspace);
+    console.log(designe);
+    console.log(work);
+    console.log(name);
+    console.log(phone);
+    console.log(result);
   };
 
   const togle = (callback:any, quizNumver:boolean) => {
@@ -50,12 +58,9 @@ export const Home: React.FC = () => {
   };
 
   useEffect(() => {
-    console.log(result);
   }, [result, typeLandspace, area, designe, work, name, phone]);
 
   const send = () => {
-    console.log(url);
-
     const api = new XMLHttpRequest();
     api.open('GET', url, true);
     api.send();
@@ -128,7 +133,8 @@ export const Home: React.FC = () => {
                 </div>
                 <button
                   type="button"
-                  className="quiz__button button20"
+                  className="quiz__button"
+                  disabled={!(typeLandspace === 'Кривий' || typeLandspace === 'Рівнинний')}
                   onClick={() => {
                     togle(togleSecond, second);
                     togle(togleThird, third);
@@ -161,6 +167,7 @@ export const Home: React.FC = () => {
                 <div className="padding20">
                   <button
                     type="button"
+                    disabled={area.length < 1}
                     className="quiz__button button20"
                     onClick={() => {
                       togle(togleThird, third);
@@ -238,6 +245,7 @@ export const Home: React.FC = () => {
                 <div>
                   <button
                     type="button"
+                    disabled={designe.length < 1}
                     className="quiz__button button20"
                     onClick={() => {
                       togle(togleFourth, fourth);
@@ -315,6 +323,7 @@ export const Home: React.FC = () => {
                 <div>
                   <button
                     type="button"
+                    disabled={work.length < 1}
                     className="quiz__button button20"
                     onClick={() => {
                       togle(togleFifth, fifth);
@@ -327,7 +336,6 @@ export const Home: React.FC = () => {
                 </div>
               </div>
             </div>
-
           </div>
         )}
 
@@ -363,6 +371,7 @@ export const Home: React.FC = () => {
                 </div>
                 <button
                   type="button"
+                  disabled={phone.length < 1 || name.length < 1}
                   className="quiz__button button20"
                   onClick={() => {
                     togle(togleFirst, false);
@@ -374,9 +383,7 @@ export const Home: React.FC = () => {
                 </button>
                 <div />
               </div>
-
             </div>
-
           </div>
         )}
 
@@ -386,10 +393,10 @@ export const Home: React.FC = () => {
         <div className="quiz">
           <div className="">
             <div className="quiz__title">
-              Розрахуйте попередню вартість та терміни на виконання ландшафтних робіт.
+              Розрахунок попередньої вартості та терміни на виконання ландшафтних робіт.
             </div>
             <div className="quiz__question">
-              Отримайте безкоштовну консультацію відповівши на 5 питань.
+              Бажаєте отримайте безкоштовну консультацію?
             </div>
             <div className="answers gap20">
               <div>
@@ -423,6 +430,7 @@ export const Home: React.FC = () => {
             </div>
             <button
               type="button"
+              disabled={advice.length < 1}
               className="quiz__button button20"
               onClick={() => {
                 togle(togleFirst, first);
@@ -430,7 +438,7 @@ export const Home: React.FC = () => {
                   togle(togleSixth, sixth);
                   togle(togleFirst, first);
 
-                  setResult((result) => result + advice + '\r\n');
+                  setResult((result) => result + advice);
                   send();
                   clear();
                 }
