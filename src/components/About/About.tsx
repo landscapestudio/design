@@ -81,7 +81,7 @@ export const About: React.FC = () => (
       </div>
     </div>
 
-    <div className="about_title">Проекти</div>
+    <div className="about_title">Проєкти</div>
 
     <div className="about_container">
       <div className="block">
@@ -128,7 +128,8 @@ export const About: React.FC = () => (
       </div>
     </div>
     <div className="about_company">
-      Наша компанія на ринку більше 15 років, ми гарантуємо якість усіх робіт
+      Наша команда Ld studio має багаторічний досвід на ринку
+      та вже успішно здійснила понад 150 проєктів.
     </div>
   </div>
 );

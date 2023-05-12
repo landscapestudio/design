@@ -1,7 +1,9 @@
 .about {
   background-color: #ADD18B;
+  scroll-margin-top: 1em;
 }
 .about_container {
+
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -14,6 +16,7 @@
 }
 
 .about_title {
+
   padding: 20px;
   font-size: 35px;
   border-bottom: 3px solid #838383;
