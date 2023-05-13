@@ -8,13 +8,19 @@ export const Footer: React.FC = () => (
       <div className="network">
         <Link to="https://www.instagram.com/sophiya_ld/" className="link">
           <i className="bx bxl-instagram" />
+          &nbsp;
           Instagram
         </Link>
         <Link to="https://www.facebook.com/SophiaKrupaLD" className="link">
           <i className="bx bxl-facebook-square" />
+          &nbsp;
           Facebook
         </Link>
-        <Link to="tel:+380673909427" className="link">+380673909427</Link>
+        <Link to="tel:+380673909427" className="link">
+          <i className="bx bxs-phone-call" />
+          &nbsp;+380673909427
+
+        </Link>
       </div>
 
     </div>

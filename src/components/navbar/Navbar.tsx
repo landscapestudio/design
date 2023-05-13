@@ -16,67 +16,48 @@ export const Navbar: React.FC = () => {
         </NavLink>
 
         <ul className={clik ? 'nav__menu active' : 'nav__menu'}>
-
-          {/* <NavItem
-            to="/"
-            event={handleClik}
-            text="Home"
-          /> */}
           <Link
-          // eslint-disable-next-line react/jsx-boolean-value
             spy={true}
-          // eslint-disable-next-line react/jsx-boolean-value
             smooth={true}
             offset={50}
             duration={500}
             to="home"
             className="nav__item nav__links"
           >
-            Home
+            Головна
           </Link>
 
-          {/* <NavItem
-            to="/about"
-            event={handleClik}
-            text="About us"
-          /> */}
           <Link
-          // eslint-disable-next-line react/jsx-boolean-value
             spy={true}
-          // eslint-disable-next-line react/jsx-boolean-value
             smooth={true}
             offset={50}
             duration={500}
             to="about"
             className="nav__item nav__links"
           >
-            About us
+            Роботи
           </Link>
 
           <Link
-            // eslint-disable-next-line react/jsx-boolean-value
             spy={true}
-            // eslint-disable-next-line react/jsx-boolean-value
             smooth={true}
             offset={50}
             duration={500}
             to="blog"
             className="nav__item nav__links"
           >
-            Blog
+            Проєкти
           </Link>
 
           <Link
-            // eslint-disable-next-line react/jsx-boolean-value
             spy={true}
-            // eslint-disable-next-line react/jsx-boolean-value
             smooth={true}
             offset={50}
             duration={500}
             to="footer"
             className="nav__item nav__links"
           >
-            Contact us
+            Контакти
           </Link>
         </ul>
 

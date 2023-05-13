@@ -1,5 +1,4 @@
 .about {
-  background-color: #ADD18B;
   scroll-margin-top: 1em;
 }
 .about_container {
@@ -10,7 +9,6 @@
   // padding: 30px;
   overflow: hidden;
   padding: 30px;
-  background-image: linear-gradient( #ADD18B, #D6E1DB);
   font-size: 20px;
   flex-wrap: wrap;
 }
@@ -42,17 +40,15 @@
 
 .about_description {
   padding-top: 20px;
-  background-color: #ADD18B;;
-  
 }
 
-.about_company {
-  border-top: 3px solid #B6B6B6;
-  background-color: #D6E1DB;
-  padding-bottom: 30px;
-  padding-top: 10px;
-  font-size: 20px;
-}
+// .about_company {
+//   border-top: 3px solid #B6B6B6;
+//   background-color: #D6E1DB;
+//   padding-bottom: 30px;
+//   padding-top: 10px;
+//   font-size: 20px;
+// }
 
 @media screen and (max-width: 650px) {
   .container {

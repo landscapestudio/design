@@ -5,7 +5,6 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
 import { Home } from './pages/Home/Home';
 import { About } from './components/About/About';
-import { Blog } from './pages/Blog';
 import { Footer } from './components/Footer/Footer';
 
 const App: React.FC = () => (
@@ -16,7 +15,7 @@ const App: React.FC = () => (
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="#about" Component={About} />
-        <Route path="#blog" Component={Blog} />
+        <Route path="#blog" Component={About} />
         <Route path="#footer" Component={Footer} />
         <Route
           path="*"

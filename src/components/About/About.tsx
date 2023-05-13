@@ -79,9 +79,30 @@ export const About: React.FC = () => (
           className="block_img"
         />
       </div>
+      <div className="block">
+        <img
+          src={require('../../img/block10.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
+      <div className="block bwww">
+        <img
+          src={require('../../img/block11.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
+      <div className="block">
+        <img
+          src={require('../../img/block12.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
     </div>
 
-    <div className="about_title">Проєкти</div>
+    <div className="about_title" id="blog">Проєкти</div>
 
     <div className="about_container">
       <div className="block">
@@ -126,10 +147,48 @@ export const About: React.FC = () => (
           className="block_img"
         />
       </div>
-    </div>
-    <div className="about_company">
-      Наша команда Ld studio має багаторічний досвід на ринку
-      та вже успішно здійснила понад 150 проєктів.
+      <div className="block">
+        <img
+          src={require('../../img/block1_7.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
+      <div className="block">
+        <img
+          src={require('../../img/block1_8.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
+      <div className="block">
+        <img
+          src={require('../../img/block1_9.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
+      <div className="block">
+        <img
+          src={require('../../img/block1_11.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
+      <div className="block">
+        <img
+          src={require('../../img/block1_10.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
+      <div className="block">
+        <img
+          src={require('../../img/block1_12.jpg')}
+          alt="img"
+          className="block_img"
+        />
+      </div>
     </div>
   </div>
 );

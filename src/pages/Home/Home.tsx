@@ -75,6 +75,9 @@ export const Home: React.FC = () => {
           <div className="quiz top-20">
             <div className="quiz_container">
               <div>
+                <div className="quiz__title">
+                  Хочете персональну пропозицію з ландшафтного дизайну?
+                </div>
                 <div className="quiz__question">
                   1. Тип вашої ділянки
                 </div>
@@ -461,23 +464,26 @@ export const Home: React.FC = () => {
 
         <div className="info">
           <div className="info__title">
-            Хочете персональну пропозицію з ланшафтного дизайну?
+            Ландшафтний дизайн
           </div>
-          <div className="weDo">
+          <div className="info__description">
+            Проектування, реалізація, підтримка. Баланс гармонії і комфорту в вашому саду.
+          </div>
+          {/* <div className="weDo">
             <div className="list">
               <div className="list_b">
                 <li className="list_item">
-                  <i className="bx bxs-florist" />
+                  <i class='bx bx-check' />
                   &nbsp;&nbsp;
                   Сучасний ландафтний дизайн &quot;Під ключ&quot;.
                 </li>
                 <li className="list_item">
-                  <i className="bx bxs-florist" />
+                  <i class='bx bx-check' />
                   &nbsp;&nbsp;
                   З поетапною оплатою та терміном прописанним у договорі.
                 </li>
                 <li className="list_item">
-                  <i className="bx bxs-florist" />
+                  <i class='bx bx-check' />
                   &nbsp;&nbsp;
                   Працюємо по західній Україні.
                 </li>
@@ -485,20 +491,20 @@ export const Home: React.FC = () => {
 
               <div className="ofer">
                 <li>
-                  <i className="bx bx-cube" />
+                  <i class='bx bx-check' />
               &nbsp;&nbsp;Комп’ютерна 3D візуалізація усієї території
                 </li>
                 <li>
-                  <i className="bx bx-cube" />
+                  <i class='bx bx-check' />
               &nbsp;&nbsp;2 варіанти ескізів
                 </li>
                 <li>
-                  <i className="bx bx-cube" />
+                  <i class='bx bx-check' />
               &nbsp;&nbsp;Дендроплан з асортиментною відомістю рослин
                 </li>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <button
             type="button"
@@ -512,7 +518,44 @@ export const Home: React.FC = () => {
 
         </div>
       </div>
+      <div className="weDo">
+        <div className="list">
+          <div className="list_b">
+            <li className="list_item">
+              <i className="bx bx-check" />
+              &nbsp;
+              Сучасний ландафтний дизайн &quot;Під ключ&quot;.
+            </li>
+            <li className="list_item">
+              <i className="bx bx-check" />
+              &nbsp;
+              З поетапною оплатою та терміном прописанним у договорі.
+            </li>
+            <li className="list_item">
+              <i className="bx bx-check" />
+              &nbsp;
+              Працюємо по західній Україні.
+            </li>
+          </div>
+
+          <div className="ofer">
+            <li>
+              <i className="bx bx-check" />
+              &nbsp;Комп’ютерна 3D візуалізація усієї території
+            </li>
+            <li>
+              <i className="bx bx-check" />
+              &nbsp;2 варіанти ескізів
+            </li>
+            <li>
+              <i className="bx bx-check" />
+              &nbsp;&nbsp;Дендроплан з асортиментною відомістю рослин
+            </li>
+          </div>
+        </div>
+      </div>
       <About />
+      {/* <Blog /> */}
       <Footer />
     </>
   );
