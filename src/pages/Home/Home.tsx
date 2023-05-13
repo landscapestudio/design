@@ -74,6 +74,7 @@ export const Home: React.FC = () => {
         {second && (
           <div className="quiz top-20">
             <div className="quiz_container">
+
               <div>
                 <div className="quiz__title">
                   Хочете персональну пропозицію з ландшафтного дизайну?
@@ -394,7 +395,7 @@ export const Home: React.FC = () => {
         { first
         && (
         <div className="quiz">
-          <div className="">
+          <div>
             <div className="quiz__title">
               Розрахунок попередньої вартості та терміни на виконання ландшафтних робіт.
             </div>
@@ -461,10 +462,12 @@ export const Home: React.FC = () => {
 
       </div>
       <div className="content" id="home">
-
         <div className="info">
           <div className="info__title">
-            Ландшафтний дизайн
+            Ландшафтний
+            {' '}
+            {window.innerWidth < 650 && <br />}
+            дизайн
           </div>
           <div className="info__description">
             Проектування, реалізація, підтримка. Баланс гармонії і комфорту в вашому саду.
@@ -555,7 +558,6 @@ export const Home: React.FC = () => {
         </div>
       </div>
       <About />
-      {/* <Blog /> */}
       <Footer />
     </>
   );

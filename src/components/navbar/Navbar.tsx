@@ -11,7 +11,7 @@ export const Navbar: React.FC = () => {
   return (
     <nav className="nav">
       <div className="nav__container">
-        <NavLink to="/" className="nav__logo">
+        <NavLink to="home" className="nav__logo">
           <img src={require('../../img/logo.png')} alt="logo" className="nav_logo_img" />
         </NavLink>
 
@@ -23,6 +23,7 @@ export const Navbar: React.FC = () => {
             duration={500}
             to="home"
             className="nav__item nav__links"
+            onClick={handleClik}
           >
             Головна
           </Link>
@@ -33,6 +34,7 @@ export const Navbar: React.FC = () => {
             offset={50}
             duration={500}
             to="about"
+            onClick={handleClik}
             className="nav__item nav__links"
           >
             Роботи
@@ -45,6 +47,7 @@ export const Navbar: React.FC = () => {
             duration={500}
             to="blog"
             className="nav__item nav__links"
+            onClick={handleClik}
           >
             Проєкти
           </Link>
@@ -56,6 +59,7 @@ export const Navbar: React.FC = () => {
             duration={500}
             to="footer"
             className="nav__item nav__links"
+            onClick={handleClik}
           >
             Контакти
           </Link>
