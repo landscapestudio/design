@@ -1,1 +1,1 @@
-[DEMO LINK](https://VovaKlimyuk.github.io/landspa/) 
+[DEMO LINK](https://landscapestudio.github.io/design) 
