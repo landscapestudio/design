@@ -472,15 +472,18 @@ export const Home: React.FC = () => {
           <div className="info__description">
             Проектування, реалізація, підтримка. Баланс гармонії і комфорту в вашому саду.
           </div>
-          <button
-            type="button"
-            className="button"
-            onClick={() => {
-              togle(togleSecond, second);
-            }}
-          >
-            Розрахувати вартість дизайну
-          </button>
+          <div className="button_container">
+            <button
+              type="button"
+            // className="button"
+              className="btn btn-main test-scroll"
+              onClick={() => {
+                togle(togleSecond, second);
+              }}
+            >
+              Розрахувати вартість дизайну
+            </button>
+          </div>
 
         </div>
       </div>
