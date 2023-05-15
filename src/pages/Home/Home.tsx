@@ -28,7 +28,7 @@ export const Home: React.FC = () => {
   // send to telegram
   const [result, setResult] = useState<string>('');
   const token = '6027165435:AAHKRyzQluvDXwBqStlbP_J0LCjRlPJm3n4';
-  const chatId = '-983553882';
+  const chatId = '-1001959570471';
   const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${result}`;
 
   const clear = () => {
