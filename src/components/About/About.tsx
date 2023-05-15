@@ -39,7 +39,7 @@ export const About: React.FC = () => (
       </div>
       <div className="block">
         <img
-          src={require('../../img/block4.jpg')}
+          src={require('../../img/block9.jpg')}
           alt="img"
           className="block_img"
         />
@@ -74,7 +74,7 @@ export const About: React.FC = () => (
       </div>
       <div className="block">
         <img
-          src={require('../../img/block9.jpg')}
+          src={require('../../img/block15.jpg')}
           alt="img"
           className="block_img"
         />
