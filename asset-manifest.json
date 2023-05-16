@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design/static/css/main.59ed4662.css",
-    "main.js": "/design/static/js/main.193cd20b.js",
+    "main.css": "/design/static/css/main.3183a345.css",
+    "main.js": "/design/static/js/main.c1843491.js",
     "static/media/block1.jpg": "/design/static/media/block1.63b3cd8a377eac52adde.jpg",
     "static/media/block7.jpg": "/design/static/media/block7.2c35bd518f1237db8a85.jpg",
     "static/media/landspace-kruvuy.jpg": "/design/static/media/landspace-kruvuy.47e67786b6bdb83eebf7.jpg",
@@ -31,11 +31,11 @@
     "static/media/block1_9.jpg": "/design/static/media/block1_9.52de842b1d5e1679be2f.jpg",
     "static/media/block1_10.jpg": "/design/static/media/block1_10.fee0d9d58a0e0f9d1327.jpg",
     "index.html": "/design/index.html",
-    "main.59ed4662.css.map": "/design/static/css/main.59ed4662.css.map",
-    "main.193cd20b.js.map": "/design/static/js/main.193cd20b.js.map"
+    "main.3183a345.css.map": "/design/static/css/main.3183a345.css.map",
+    "main.c1843491.js.map": "/design/static/js/main.c1843491.js.map"
   },
   "entrypoints": [
-    "static/css/main.59ed4662.css",
-    "static/js/main.193cd20b.js"
+    "static/css/main.3183a345.css",
+    "static/js/main.c1843491.js"
   ]
 }
