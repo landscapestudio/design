@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/design/static/css/main.42a592ea.css",
-    "main.js": "/design/static/js/main.27449d69.js",
+    "main.js": "/design/static/js/main.4dec2af9.js",
     "static/media/block1.jpg": "/design/static/media/block1.63b3cd8a377eac52adde.jpg",
     "static/media/block7.jpg": "/design/static/media/block7.2c35bd518f1237db8a85.jpg",
     "static/media/landspace-kruvuy.jpg": "/design/static/media/landspace-kruvuy.47e67786b6bdb83eebf7.jpg",
+    "static/media/block9.jpg": "/design/static/media/block9.e82de13b831591afa37e.jpg",
     "static/media/block10.jpg": "/design/static/media/block10.0245dba9fd2459ce9b45.jpg",
     "static/media/block12.jpg": "/design/static/media/block12.3b9e364773c1505d34ef.jpg",
     "static/media/block6.jpg": "/design/static/media/block6.5ef99713cec3e8a286b5.jpg",
     "static/media/block8.jpg": "/design/static/media/block8.d4ad7eabeb518a2e5a48.jpg",
-    "static/media/block9.jpg": "/design/static/media/block9.9439a665ee9a136f261c.jpg",
+    "static/media/block15.jpg": "/design/static/media/block15.9439a665ee9a136f261c.jpg",
     "static/media/block1_8.jpg": "/design/static/media/block1_8.7aebe0cabfb5ca12f055.jpg",
     "static/media/block5.jpg": "/design/static/media/block5.d25964ad2447656c2faa.jpg",
     "static/media/block1_5.jpg": "/design/static/media/block1_5.31c010096ad80ed3e9b5.jpg",
     "static/media/block1_4.jpg": "/design/static/media/block1_4.5a410eaafc7e4e331eb9.jpg",
     "static/media/block2.jpg": "/design/static/media/block2.f931c1a6c099aa721598.jpg",
-    "static/media/block15.jpg": "/design/static/media/block15.722a7442bd3500d3ec7a.jpg",
     "static/media/block1_1.jpg": "/design/static/media/block1_1.1c35d6a1c045b00df9b6.jpg",
     "static/media/block11.jpg": "/design/static/media/block11.68351823859931605052.jpg",
     "static/media/block3.jpg": "/design/static/media/block3.b9d040712a9ea020f5ca.jpg",
@@ -32,10 +32,10 @@
     "static/media/block1_10.jpg": "/design/static/media/block1_10.fee0d9d58a0e0f9d1327.jpg",
     "index.html": "/design/index.html",
     "main.42a592ea.css.map": "/design/static/css/main.42a592ea.css.map",
-    "main.27449d69.js.map": "/design/static/js/main.27449d69.js.map"
+    "main.4dec2af9.js.map": "/design/static/js/main.4dec2af9.js.map"
   },
   "entrypoints": [
     "static/css/main.42a592ea.css",
-    "static/js/main.27449d69.js"
+    "static/js/main.4dec2af9.js"
   ]
 }
