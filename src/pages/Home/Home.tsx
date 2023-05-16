@@ -475,8 +475,7 @@ export const Home: React.FC = () => {
           <div className="button_container">
             <button
               type="button"
-            // className="button"
-              className="btn btn-main test-scroll"
+              className="button"
               onClick={() => {
                 togle(togleSecond, second);
               }}

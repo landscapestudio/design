@@ -248,101 +248,6 @@
   text-align: center;
 }
 
-
-
-.btn {
-  margin: 50px;
-  border: none;
-  padding: 1.4vw;
-  -webkit-box-shadow: 0 1rem 2rem #ffc316, inset 0 -4px 0 #cd8f38;
-  box-shadow: 0 0rem 2rem #eab016, inset 0 -4px 0 #cd8f38;
-  background-color: #ffd04c;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 82, 35, 0)), to(#ffc117));
-  background-image: -webkit-linear-gradient(top, rgba(255, 82, 35, 0) 0%, #eab016 100%);
-  background-image: -o-linear-gradient(top, rgba(255, 82, 35, 0) 0%, #eab016 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 82, 35, 0)), to(#eab016));
-  background-image: linear-gradient(to bottom, rgba(255, 82, 35, 0) 0%, #eab016 100%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  color: #212121;
-  border-radius: 10px;
-  cursor: pointer;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  text-decoration: none;
-  position: relative;
-  overflow: hidden;
-  text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.65);
-  font-size: 0.9375vw;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-image: linear-gradient(to bottom, rgba(255, 82, 35, 0) 0%, #2eb3b1 100%);
-  box-shadow: 0 0rem 2rem #16eadd, inset 0 -4px 0 #2b9593;
-  background-color: #60c7d5;
-}
-
-.btn-main {
-  width: 22rem;
-  padding: 1.7rem;
-}
-
-@keyframes slideme {
-  0% {
-    left: -30px;
-    margin-left: 0;
-  }
-
-  30% {
-    left: 110%;
-    margin-left: 80px;
-  }
-
-  100% {
-    left: 111%;
-    margin-left: 84px;
-  }
-}
-
-.btn:after {
-  margin-left: -30px;
-  content: " ";
-  width: 30px;
-  height: 300px;
-  background: #fff;
-  -webkit-animation-delay: 0.05s;
-  animation-delay: 0.05s;
-  position: absolute;
-  left: -90px;
-  top: -150px;
-  top-animation-timing-function: ease-in-out;
-  -webkit-transition: all 0.1s;
-  -o-transition: all 0.1s;
-  transition: all 0.1s;
-  -webkit-animation-name: slideme;
-  animation-name: slideme;
-  -webkit-animation-duration: 3.5s;
-  animation-duration: 3.5s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.button_container {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
 @media screen and (max-width: 650px) {
   // .info {
   //   padding-top: 20%;
@@ -402,9 +307,5 @@
 
   .quiz_top-20 {
     top: 60px;
-  }
-
-  .btn {
-    font-size: 18px;
   }
 }
