@@ -132,7 +132,7 @@ export const Home: React.FC = () => {
                       <img
                         src={require('../../img/landspace-kruvuy.jpg')}
                         alt="img"
-                        className="quiz_block_img"
+                        className="quiz_block_img kruvuy"
                       />
                     </label>
                   </div>
