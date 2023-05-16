@@ -97,7 +97,7 @@ export const Home: React.FC = () => {
                       <label htmlFor="rivnuy">
                         {' '}
                         Рівнинний
-
+                        <div className="rivnuy">dd</div>
                       </label>
                     </div>
                     <label htmlFor="rivnuy">
@@ -122,7 +122,10 @@ export const Home: React.FC = () => {
                       />
                       <label htmlFor="kruvuy">
                         {' '}
-                        Кривий
+                        Складний рельєф
+                        {' '}
+                        <br />
+                        (з перепадом висот)
                       </label>
                     </div>
                     <label htmlFor="kruvuy">
@@ -470,7 +473,7 @@ export const Home: React.FC = () => {
             дизайн
           </div>
           <div className="info__description">
-            Проектування, реалізація, підтримка. Баланс гармонії і комфорту в вашому саду.
+            Проектування, реалізація, підтримка. Баланс гармонії і комфорту Вашого саду.
           </div>
           <div className="button_container">
             <button

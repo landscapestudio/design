@@ -92,14 +92,6 @@
     font-size: 30px;
     text-align-last: left;
   }
-  
-
-  .button {
-    position: relative;
-    bottom: -20%;
-    margin: 0;
-    font-size: 20px;
-  }
 
   .info__description {
     padding-right: 10px;
@@ -155,6 +147,10 @@
   flex-wrap: wrap;
 }
 
+.rivnuy {
+  color: #AFD28F;
+}
+
 .quiz {
   z-index: 20;
   position: absolute;
@@ -162,8 +158,8 @@
   justify-content: center;
   padding-top: 50px;
   top: 100px;
-  width: 180vh;
-  height: 83vh;
+  width: 100%;
+  height: 100%;
   background-color: #AFD28F;
 
   &__title {
@@ -179,7 +175,6 @@
 
   &__button {
     text-align: center;
-    margin: 40px;
     padding: 15px;
     width: 170px;
     border-radius: 20px;
@@ -272,12 +267,8 @@
     }
 
     &__button {
-      margin: 0;
+      margin-top: 30px;
     }
-  }
-
-  .button20 {
-    margin: 20px;
   }
 
   .quiz_block_img {
